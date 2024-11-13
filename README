@@ -1,10 +1,12 @@
 # Benchmark FS vs LevelDB
 
-##NodeJS version
+## NodeJS version
+
+### Install
 
     npm install level
 
-Configs:
+### Configs:
 
     const benchmark = new StorageBenchmark({
         numFiles: 1000,        
@@ -16,9 +18,11 @@ Configs:
 
 ## Python version
 
+### Install
+
     pip install plyvel
 
-Configs:
+### Configs:
 
     config = BenchmarkConfig(
         num_files=10000,        
